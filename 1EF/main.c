@@ -29,7 +29,7 @@ void CaricareVettore(int x, int Vet[x]){
 }
 
 int TrovareMassimo(int x, int Vet[x]){
-    int max=0, i=0;
+    int max=Vet[i], i=0;
     while(i<x){
         if (Vet[i]>max)
             max=Vet[i];
